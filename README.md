@@ -1,4 +1,5 @@
 # pandaru
+Reseau social via API  Vue JS
 
 ## Project setup
 ```
