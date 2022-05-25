@@ -25,4 +25,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.wrapper {
+  height: 10vh;
+}
+</style>
+>

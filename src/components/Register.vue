@@ -2,6 +2,7 @@ vue
 <template>
   <div class="wrapper">
     <form @submit.prevent="">
+      <h2>S'inscrire</h2>
       <input
         type="text"
         @input="user_nom"
@@ -125,13 +126,43 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(236, 115, 27);
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px rgba(61, 61, 61, 0.782);
 }
 input {
   margin: 3vh;
   border-radius: 5px;
   height: 5vh;
+  width: 15vw;
 }
+
 .form-control {
+  display: flex;
+  width: 15vw;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 25vw;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(236, 115, 27);
+  z-index: 1;
+}
+h2 {
+  font-size: 2em;
+  text-align: center;
+  padding: 0.5vh;
+  font-family: "Londrina Solid", cursive;
+  color: white;
+  letter-spacing: 1vh;
+}
+.btn-primary {
+  background: rgb(117, 50, 1);
+  border: none;
 }
 </style>

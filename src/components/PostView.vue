@@ -62,4 +62,21 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(209, 153, 114);
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn-primary {
+  background-color: rgb(117, 50, 1);
+  border: none;
+}
+</style>
