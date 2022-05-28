@@ -1,58 +1,56 @@
 vue
 <template>
-  <div class="wrapper">
-    <form @submit.prevent="">
-      <h2>S'inscrire</h2>
-      <input
-        type="text"
-        @input="user_nom"
-        name="nom"
-        id="nom"
-        required
-        placeholder="Nom"
-        class="form-control"
-      />
-      <input
-        type="text"
-        name="prenom"
-        id="prenom"
-        required
-        @input="user_prenom"
-        placeholder="Prenom"
-        class="form-control"
-      />
-      <input
-        type="mail"
-        required
-        id="mail"
-        @input="user_mail"
-        placeholder="ema@il"
-        class="form-control"
-      />
-      <input
-        type="password"
-        name="pass1"
-        id="pass1"
-        @input="user_mdp"
-        placeholder="Mot de passe"
-        class="form-control"
-      />
-      <input
-        type="password"
-        name="pass2"
-        id="pass2"
-        placeholder="Confirmez le mot de passe"
-        class="form-control"
-      />
-      <input
-        type="submit"
-        value="valider"
-        id="submit"
-        @click="submit"
-        class="btn btn-primary"
-      />
-    </form>
-  </div>
+  <form @submit.prevent="">
+    <h2>S'inscrire</h2>
+    <input
+      type="text"
+      @input="user_nom"
+      name="nom"
+      id="nom"
+      required
+      placeholder="Nom"
+      class="form-control"
+    />
+    <input
+      type="text"
+      name="prenom"
+      id="prenom"
+      required
+      @input="user_prenom"
+      placeholder="Prenom"
+      class="form-control"
+    />
+    <input
+      type="mail"
+      required
+      id="mail"
+      @input="user_mail"
+      placeholder="ema@il"
+      class="form-control"
+    />
+    <input
+      type="password"
+      name="pass1"
+      id="pass1"
+      @input="user_mdp"
+      placeholder="Mot de passe"
+      class="form-control"
+    />
+    <input
+      type="password"
+      name="pass2"
+      id="pass2"
+      placeholder="Confirmez le mot de passe"
+      class="form-control"
+    />
+    <input
+      type="submit"
+      value="valider"
+      id="submit"
+      @click="submit"
+      class="btn btn-primary"
+    />
+  </form>
 </template>
 
 <script>
@@ -126,9 +124,10 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(236, 115, 27);
+  background-color: rgba(236, 114, 27, 0.612);
   border-radius: 15px;
   box-shadow: 4px 4px 10px rgba(61, 61, 61, 0.782);
+  transform: translateX(31vh);
 }
 input {
   margin: 3vh;

@@ -1,6 +1,7 @@
 <template>
-  <div class="bg"></div>
   <div class="wrapper">
+    <div class="bg"></div>
+
     <Register />
     <div class="img"><h1>PANDARU</h1></div>
     <br />
@@ -51,14 +52,15 @@ header {
   height: 90vh;
   width: 40vw;
   z-index: 1;
+  transform: translateX(8vh);
 }
 .bg {
   position: absolute;
   background: url(@/assets/background.png) center/cover no-repeat;
-  height: 98vh;
-  width: 40vw;
-  top: -10vh;
-  left: 31vw;
+  height: 187vh;
+  width: 107vw;
+  top: -66vh;
+  left: -3vw;
   z-index: 0;
 }
 </style>
